@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+textarea, input {
+  width: 90%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+textarea {
+  height: 70vh;
+  width: 90vw;
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow: scroll;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Open IoT Configuration</h1>
+
+<p><strong>Tip:</strong> Copy config.xml-content in to the text area</p>
+
+<form action="/config" method="post">
+  {formcontent}
+  <br>
+  <br>
+  <input type="submit" value="Set">
+</form>
+
+</body>
+</html>

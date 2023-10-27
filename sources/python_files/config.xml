@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imot>
+    <hierarchies>
+            <hierarchy name="PicoEnergyMeter" hierarchyuuid="a78d3210-4cb7-43a5-883c-8b29d5bb9d42" parentuuid="00000000-0000-0000-0000-000000000000" thinguuid="0d120f47-f695-4e97-8e59-4653437e80ae" order="0"/>
+                <hierarchy name="PicoEnergyMeterConnectionNode" hierarchyuuid="bd110329-f2cb-46a9-8916-0e93de6cccfc" parentuuid="a78d3210-4cb7-43a5-883c-8b29d5bb9d42" thinguuid="7421bea3-3b04-4575-812c-5eb26335afed" order="0"/>
+                    <hierarchy name="ContentBlock" hierarchyuuid="108b6868-ac1c-446b-a00f-b5304462bf1c" parentuuid="bd110329-f2cb-46a9-8916-0e93de6cccfc" thinguuid="3a63e511-d9d4-4163-b708-35ee100d720e" order="0"/>
+                        <hierarchy name="PicoTemperature" hierarchyuuid="a04b7ae4-6598-4db4-bff6-3b8971bd54a4" parentuuid="108b6868-ac1c-446b-a00f-b5304462bf1c" thinguuid="113f5748-885b-4525-a801-491a7f660108" order="0"/>
+                <hierarchy name="PicoInputReader" hierarchyuuid="950bb6f9-0e39-4be0-ba96-2d5735054aac" parentuuid="a78d3210-4cb7-43a5-883c-8b29d5bb9d42" thinguuid="49fd2c40-183f-4749-9f58-1fe852043045" order="1"/>
+                    <hierarchy name="PicoADCPin4" hierarchyuuid="8a73f24b-dda3-48ed-b560-d68b38c1471a" parentuuid="950bb6f9-0e39-4be0-ba96-2d5735054aac" thinguuid="7f1bc1ff-d619-414a-ac59-3bcf663dd4de" order="0"/>
+                    <hierarchy name="PicoADCPin28" hierarchyuuid="2dd799bd-ec89-486c-8209-2f95328265c0" parentuuid="950bb6f9-0e39-4be0-ba96-2d5735054aac" thinguuid="73af6bae-d794-42b9-94bf-59c759c020fe" order="1"/>
+                <hierarchy name="PicoFunctions" hierarchyuuid="2c97f124-9cfe-4c52-bbf4-c97776d46a36" parentuuid="a78d3210-4cb7-43a5-883c-8b29d5bb9d42" thinguuid="6907ae8a-8815-4f8d-9886-856c84d0f1e4" order="2"/>
+                    <hierarchy name="PicoTemperatureFunction" hierarchyuuid="51f70065-a320-484a-8fc4-d5c94a610556" parentuuid="2c97f124-9cfe-4c52-bbf4-c97776d46a36" thinguuid="079d98ec-c581-4df5-b1dc-3a6187e9e110" order="0"/>
+                        <hierarchy name="SourceTags" hierarchyuuid="3b5c8fb7-0c4e-4c65-b41c-8c5d58f54651" parentuuid="51f70065-a320-484a-8fc4-d5c94a610556" thinguuid="e47c72d9-8465-4767-97e2-3dd37073efd0" order="0"/>
+                            <hierarchy name="PicoADCPin4" hierarchyuuid="0a8d6271-55ad-4e26-a4e0-6277fd2e07e8" parentuuid="3b5c8fb7-0c4e-4c65-b41c-8c5d58f54651" thinguuid="7f1bc1ff-d619-414a-ac59-3bcf663dd4de" order="0"/>
+                        <hierarchy name="SinkTags" hierarchyuuid="35c9c4ba-f8de-4ed8-9594-155a231f48b8" parentuuid="51f70065-a320-484a-8fc4-d5c94a610556" thinguuid="883eea24-62a8-4fed-aded-7f12f01256b1" order="1"/>
+                            <hierarchy name="PicoTemperature" hierarchyuuid="c51d1d2b-45d9-4869-a70a-d6c74520587a" parentuuid="35c9c4ba-f8de-4ed8-9594-155a231f48b8" thinguuid="113f5748-885b-4525-a801-491a7f660108" order="0"/>
+                    <hierarchy name="PicoBlinkCounterFunction" hierarchyuuid="1cf442aa-0d40-417e-a945-be475fa8885b" parentuuid="2c97f124-9cfe-4c52-bbf4-c97776d46a36" thinguuid="02907aed-c4a1-4bc5-903e-86ad48f289b2" order="1"/>
+                        <hierarchy name="SourceTags" hierarchyuuid="febbdc75-efe2-455a-8184-2148373c097c" parentuuid="1cf442aa-0d40-417e-a945-be475fa8885b" thinguuid="07fc9b26-3654-4164-a03c-11b20b3a04dc" order="0"/>
+                            <hierarchy name="PicoADCPin28" hierarchyuuid="21744953-3557-409f-9be0-6488f7481524" parentuuid="febbdc75-efe2-455a-8184-2148373c097c" thinguuid="73af6bae-d794-42b9-94bf-59c759c020fe" order="0"/>
+                        <hierarchy name="SinkTags" hierarchyuuid="ca001fd2-37e6-4f8d-9b97-0b4f30c20f38" parentuuid="1cf442aa-0d40-417e-a945-be475fa8885b" thinguuid="1d12df96-3500-4dc6-8334-890c581284ac" order="1"/>
+                            <hierarchy name="PicoBlinkCounter" hierarchyuuid="3ec01407-c24e-40ff-8f66-14e7872cdb6d" parentuuid="ca001fd2-37e6-4f8d-9b97-0b4f30c20f38" thinguuid="0f332ac7-130b-4983-a366-1a51310095db" order="0"/>
+            <hierarchy name="PicoSensingUnitSimple" hierarchyuuid="f8599e31-83c5-41a9-8b44-981f6830cc83" parentuuid="00000000-0000-0000-0000-000000000000" thinguuid="a4ea8ec0-9c77-4d4e-b6f6-e07f6bd2ba20" order="1"/>
+                <hierarchy name="PicoADCFunction" hierarchyuuid="bc37b6a0-ad94-40cd-a721-5fe780768eed" parentuuid="f8599e31-83c5-41a9-8b44-981f6830cc83" thinguuid="9e8a41b1-a4e4-44f6-9b82-1914d34dd607" order="0"/>
+                    <hierarchy name="ADCSource" hierarchyuuid="31d40434-7e30-420d-98f3-016930072a69" parentuuid="bc37b6a0-ad94-40cd-a721-5fe780768eed" thinguuid="8007648e-aaa4-46d5-8bcf-51b70e589392" order="0"/>
+                        <hierarchy name="PicoADCPin4" hierarchyuuid="14eaf57c-692f-4a11-a42e-86da1ef7d95e" parentuuid="31d40434-7e30-420d-98f3-016930072a69" thinguuid="f4f0b9e8-0abb-499f-9d22-518822bc0863" order="0"/>
+                    <hierarchy name="ADCSink" hierarchyuuid="b1ca5d4c-81fe-45c5-95b8-214692d52f93" parentuuid="bc37b6a0-ad94-40cd-a721-5fe780768eed" thinguuid="85da8a82-c0bc-4f7a-ba3f-2f1b368d0efb" order="1"/>
+                        <hierarchy name="PicoADCPin4" hierarchyuuid="ad00b89c-cadc-4c46-b444-eba473fd5b67" parentuuid="b1ca5d4c-81fe-45c5-95b8-214692d52f93" thinguuid="f4f0b9e8-0abb-499f-9d22-518822bc0863" order="0"/>
+                <hierarchy name="PicoTemperatureFunction" hierarchyuuid="5d3cc2cb-8b06-4c3e-a7a5-dc1c29154533" parentuuid="f8599e31-83c5-41a9-8b44-981f6830cc83" thinguuid="f82b2fb6-2785-4890-9445-b6290b06eed8" order="1"/>
+                    <hierarchy name="PicoTemperatureSource" hierarchyuuid="24a2a6f5-f630-42b4-8509-6fd773916e32" parentuuid="5d3cc2cb-8b06-4c3e-a7a5-dc1c29154533" thinguuid="810e838b-122e-40c5-b5c0-b93487e52360" order="0"/>
+                        <hierarchy name="PicoADCPin4" hierarchyuuid="41f5f7f8-b9ce-462f-aaaf-7128b290ec4b" parentuuid="24a2a6f5-f630-42b4-8509-6fd773916e32" thinguuid="f4f0b9e8-0abb-499f-9d22-518822bc0863" order="0"/>
+                    <hierarchy name="PicoTemperatureSink" hierarchyuuid="298b02b0-8ea6-425c-8862-7f1caff772f1" parentuuid="5d3cc2cb-8b06-4c3e-a7a5-dc1c29154533" thinguuid="9a501046-9cbf-4f6d-8052-d1244ca57e3d" order="1"/>
+                        <hierarchy name="PicoTemperature" hierarchyuuid="80c9b0f7-8e3a-4c5f-a6ad-426b00decde6" parentuuid="298b02b0-8ea6-425c-8862-7f1caff772f1" thinguuid="32d03357-dad8-4a70-a9f1-9ad2d3c14208" order="0"/>
+                <hierarchy name="PicoConnectionNodeSimple" hierarchyuuid="3424b902-d33e-4111-8f75-2a27d77832ac" parentuuid="f8599e31-83c5-41a9-8b44-981f6830cc83" thinguuid="cd554a90-ad66-4be7-8881-27e42d6a578f" order="2"/>
+                    <hierarchy name="PicoTemperature" hierarchyuuid="49f7245b-05d7-4706-90ed-1f422913aa32" parentuuid="3424b902-d33e-4111-8f75-2a27d77832ac" thinguuid="32d03357-dad8-4a70-a9f1-9ad2d3c14208" order="0"/>
+                    <hierarchy name="PicoADCPin4" hierarchyuuid="2c24c9ef-1821-4acb-a085-b2a59b9fa7b0" parentuuid="3424b902-d33e-4111-8f75-2a27d77832ac" thinguuid="f4f0b9e8-0abb-499f-9d22-518822bc0863" order="1"/>
+                    <hierarchy name="PicoOutputNode1" hierarchyuuid="255f43c1-9729-40a6-9405-8d6607ec072a" parentuuid="3424b902-d33e-4111-8f75-2a27d77832ac" thinguuid="49c74f88-a84a-41a4-a48a-bd5212c0ceed" order="2"/>
+    </hierarchies>
+
+    <things>
+        <thing name="PicoBlinkCounterFunction" thinguuid="02907aed-c4a1-4bc5-903e-86ad48f289b2">
+            <feature name="ThingType" type="text" value="Function"/>
+            <feature name="FunctionType" type="text" value="BlinkCounter"/>
+            <feature name="Delta" type="uint16" value="2000"/>
+            <feature name="N" type="uint16" value="5"/>
+        </thing>
+
+        <thing name="PicoTemperatureFunction" thinguuid="079d98ec-c581-4df5-b1dc-3a6187e9e110">
+            <feature name="ThingType" type="text" value="Function"/>
+            <feature name="FunctionType" type="text" value="LinearEquation"/>
+            <feature name="Coefficient" type="float32" value="-0.029053"/>
+            <feature name="Constant" type="float32" value="437.227"/>
+        </thing>
+
+        <thing name="SinkTags" thinguuid="07fc9b26-3654-4164-a03c-11b20b3a04dc">
+            <feature name="ThingType" type="text" value="Source"/>
+        </thing>
+
+        <thing name="PicoEnergyMeter" thinguuid="0d120f47-f695-4e97-8e59-4653437e80ae">
+            <feature name="ThingType" type="text" value="OpenIoTDevice"/>
+            <feature name="IPAddress" type="text" value="192.168.1.197"/>
+            <feature name="DeviceType" type="text" value="PicoW"/>
+        </thing>
+
+        <thing name="PicoBlinkCounter" thinguuid="0f332ac7-130b-4983-a366-1a51310095db">
+            <feature name="ThingType" type="text" value="ContentTag"/>
+            <feature name="Value" type="uint32" value=""/>
+            <feature name="Endianness" type="text" value="LITTLE"/>
+            <feature name="Length" type="uint64" value="4"/>
+        </thing>
+
+        <thing name="PicoTemperature" thinguuid="113f5748-885b-4525-a801-491a7f660108">
+            <feature name="ThingType" type="text" value="ContentTag"/>
+            <feature name="Value" type="float32" value=""/>
+            <feature name="Endianness" type="text" value="LITTLE"/>
+            <feature name="Length" type="uint64" value="4"/>
+        </thing>
+
+        <thing name="SourceTags" thinguuid="1d12df96-3500-4dc6-8334-890c581284ac">
+            <feature name="ThingType" type="text" value="Sink"/>
+        </thing>
+
+        <thing name="PicoTemperature" thinguuid="32d03357-dad8-4a70-a9f1-9ad2d3c14208">
+            <feature name="ThingType" type="text" value="ContentTag"/>
+            <feature name="Value" type="float32" value=""/>
+            <feature name="Endianness" type="text" value="LITTLE"/>
+            <feature name="Length" type="uint64" value="4"/>
+        </thing>
+
+        <thing name="ContentBlock" thinguuid="3a63e511-d9d4-4163-b708-35ee100d720e">
+            <feature name="ThingType" type="text" value="ContentBlock"/>
+        </thing>
+
+        <thing name="PicoOutputNode1" thinguuid="49c74f88-a84a-41a4-a48a-bd5212c0ceed">
+            <feature name="ThingType" type="text" value="OutputNode"/>
+            <feature name="Protocol" type="text" value="TCP"/>
+            <feature name="Port" type="uint16" value="40209"/>
+            <feature name="MaxClientCount" type="uint16" value="5"/>
+            <feature name="HeartbeatFrequency" type="uint32" value="2000"/>
+        </thing>
+
+        <thing name="PicoInputReader" thinguuid="49fd2c40-183f-4749-9f58-1fe852043045">
+            <feature name="ThingType" type="text" value="InputReader"/>
+            <feature name="ReadFrequency" type="uint32" value="50"/>
+        </thing>
+
+        <thing name="PicoFunctions" thinguuid="6907ae8a-8815-4f8d-9886-856c84d0f1e4">
+        </thing>
+
+        <thing name="PicoADCPin28" thinguuid="73af6bae-d794-42b9-94bf-59c759c020fe">
+            <feature name="ThingType" type="text" value="ContentTag"/>
+            <feature name="Value" type="uint16" value=""/>
+            <feature name="Endianness" type="text" value="LITTLE"/>
+            <feature name="Length" type="uint64" value="2"/>
+            <feature name="TagType" type="text" value="Analog"/>
+            <feature name="PicoGPPin" type="uint16" value="28"/>
+        </thing>
+
+        <thing name="PicoEnergyMeterConnectionNode" thinguuid="7421bea3-3b04-4575-812c-5eb26335afed">
+            <feature name="ThingType" type="text" value="ConnectionNode"/>
+            <feature name="UpdateFrequency" type="uint32" value="500"/>
+            <feature name="OutputPort" type="uin16" value="40209"/>
+            <feature name="MaxClientCount" type="uint16" value="5"/>
+            <feature name="HeartbeatFrequency" type="uint32" value="2000"/>
+            <feature name="ContentType" type="text" value="Datagram"/>
+            <feature name="Protocol" type="text" value="TCP"/>
+        </thing>
+
+        <thing name="PicoADCPin4" thinguuid="7f1bc1ff-d619-414a-ac59-3bcf663dd4de">
+            <feature name="ThingType" type="text" value="ContentTag"/>
+            <feature name="Value" type="uint16" value=""/>
+            <feature name="Endianness" type="text" value="LITTLE"/>
+            <feature name="Length" type="uint64" value="2"/>
+            <feature name="TagType" type="text" value="Analog"/>
+            <feature name="PicoGPPin" type="uint16" value="4"/>
+        </thing>
+
+        <thing name="ADCSource" thinguuid="8007648e-aaa4-46d5-8bcf-51b70e589392">
+            <feature name="ThingType" type="text" value="Source"/>
+            <feature name="ReadFrequency" type="uint32" value="1000"/>
+        </thing>
+
+        <thing name="PicoTemperatureSource" thinguuid="810e838b-122e-40c5-b5c0-b93487e52360">
+            <feature name="ThingType" type="text" value="Source"/>
+            <feature name="ReadFrequency" type="uint32" value="1000"/>
+        </thing>
+
+        <thing name="ADCSink" thinguuid="85da8a82-c0bc-4f7a-ba3f-2f1b368d0efb">
+            <feature name="ThingType" type="text" value="Sink"/>
+            <feature name="ReadFrequency" type="uint32" value="1000"/>
+        </thing>
+
+        <thing name="SourceTags" thinguuid="883eea24-62a8-4fed-aded-7f12f01256b1">
+            <feature name="ThingType" type="text" value="Sink"/>
+        </thing>
+
+        <thing name="PicoTemperatureSink" thinguuid="9a501046-9cbf-4f6d-8052-d1244ca57e3d">
+            <feature name="ThingType" type="text" value="Sink"/>
+        </thing>
+
+        <thing name="PicoADCFunction" thinguuid="9e8a41b1-a4e4-44f6-9b82-1914d34dd607">
+            <feature name="ThingType" type="text" value="Function"/>
+            <feature name="FunctionType" type="text" value="ADC"/>
+        </thing>
+
+        <thing name="PicoSensingUnitSimple" thinguuid="a4ea8ec0-9c77-4d4e-b6f6-e07f6bd2ba20">
+            <feature name="ThingType" type="text" value="OpenIoTDevice"/>
+            <feature name="IPAddress" type="text" value="192.168.1.197"/>
+        </thing>
+
+        <thing name="PicoConnectionNodeSimple" thinguuid="cd554a90-ad66-4be7-8881-27e42d6a578f">
+            <feature name="ThingType" type="text" value="ConnectionNode"/>
+            <feature name="IPAddress" type="text" value="192.168.1.197"/>
+            <feature name="ConnectionNodeType" type="text" value="Datagram"/>
+            <feature name="UpdateFrequency" type="uint32" value="500"/>
+            <feature name="HttpOutputPort" type="uint16" value="40002"/>
+        </thing>
+
+        <thing name="SinkTags" thinguuid="e47c72d9-8465-4767-97e2-3dd37073efd0">
+            <feature name="ThingType" type="text" value="Source"/>
+        </thing>
+
+        <thing name="PicoADCPin4" thinguuid="f4f0b9e8-0abb-499f-9d22-518822bc0863">
+            <feature name="ThingType" type="text" value="ContentTag"/>
+            <feature name="Value" type="uint16" value=""/>
+            <feature name="Endianness" type="text" value="LITTLE"/>
+            <feature name="Length" type="uint64" value="2"/>
+            <feature name="TagType" type="text" value="ADC"/>
+            <feature name="PicoGPPin" type="uint16" value="4"/>
+        </thing>
+
+        <thing name="PicoTemperatureFunction" thinguuid="f82b2fb6-2785-4890-9445-b6290b06eed8">
+            <feature name="ThingType" type="text" value="Function"/>
+            <feature name="FunctionType" type="text" value="LinearEquation"/>
+            <feature name="Coefficient" type="float32" value="-0.029053"/>
+            <feature name="Constant" type="float32" value="437.227"/>
+        </thing>
+
+    </things>
+
+</imot>

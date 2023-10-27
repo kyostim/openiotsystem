@@ -1,4 +1,3 @@
-
 class CHierarchy:
     def __init__(self, hierarchyName, hierarchyUUID, parentUUID, thingUUID, order, things):
         self.Name = hierarchyName
@@ -26,7 +25,7 @@ class CHierarchy:
             for childChild in childChildren:
                 children.append(childChild)            
 
-        return children
+        return children;
 
     def GetParentByFeature(self, featureName, featureValue):
         parent = None
@@ -46,3 +45,9 @@ class CHierarchy:
             feature = self.Thing.GetFeature(name, value)
             
         return feature
+      
+
+      
+
+
+
